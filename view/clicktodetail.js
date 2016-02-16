@@ -4,4 +4,8 @@ function icecreamdetail() {
   $("#ladagne").show();
   $("#Ingredient").show();
   $("#preparation").show();
+
+  getAllIngredients();
+  getNumberOfGuests();
+  getAllDishes();
 }

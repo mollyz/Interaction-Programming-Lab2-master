@@ -4,4 +4,10 @@ function backtoselect() {
   $("#preparation").hide();
   $("#searchArea").show();
   $("#ShowList").show();
+
+  getAllDishes();
+  getTotalMenuPrice(); 
+  getFullMenu();
+  getNumberOfGuests();
+  getSelectedDish();
 }
