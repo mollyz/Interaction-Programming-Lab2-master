@@ -1,0 +1,89 @@
+#head-Background{
+	height: 100px;
+	border: 3px solid black;
+	background-color: #FFFFCC;
+	
+	
+}
+
+#subtitle{vertical-align:bottom;font-size: 40%;font-style: italic;}
+
+/* xuan fu kuang */
+#hover-div{
+	position: relative;
+	top:200px;
+	width: 500px;
+
+	border: 3px solid #73AD21;
+}
+hr{
+	border-width: 3px;
+}
+h1{
+	font-size: 40px;
+}
+
+
+#PriceTable{
+	height: 10px;
+	background-color: #ffcc99;
+	font-size: 16px;
+}
+.t0{
+	width: 50%;
+	height:30px;
+}
+
+.t1{
+	width: 30%;
+}
+.t2{
+	width: 20%;
+}
+#lastRow{
+	border-bottom: 3px solid #73AD21;
+}
+#confirmDiner{
+	width: 100%;
+}
+select{
+	width: 200px;
+}
+
+#searchArea{
+	/*border-bottom: 2px solid black;*/
+	padding-bottom: 30px;
+	padding-left: 30px;
+
+}
+.showList{
+	position: float;
+}
+.floating-box {
+    float: left;
+    width: 144px;
+    height:200px;
+    margin: 10px; 
+    
+}
+#iceCream{
+	width:140px;
+	height:140px;
+	border-bottom: 2px solid black;
+
+}
+.textMiddle{
+	text-align:center; padding: 5px; border-bottom:2px solid black;
+}
+#Ingredient{
+	border:2px solid black; background:#FFFFCC;
+	height: 380px;
+}
+#ingredientTable{
+	height: 200px;
+}
+
+.p0{width: 20%; height:30px;}
+.p1{width: 50%;text-align: left;}
+.p2{width: 15%;}
+.p3{width: 15%; text-align: right;}

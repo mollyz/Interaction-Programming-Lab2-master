@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dinner planner</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./view/stylecss.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <!--fixed heading-->
+    <div class="row">
+      <div class="col-md-12" id="head-Background">
+        <h1>HOMELETTE <span id="subtitle"> From the best chefs in the world directly into your kitchen.</span></h1></div>
+    </div>
+
+    <!--page 1 hovering square-->
+    <!--
+        <div id="hover-div">
+            <h4>A Home Dinner Service</h4>
+            <hr>
+            <p>jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. <br><br>start quickly:
+            </p>
+            <button>Create new dinner</button></div>
+        
+-->
+
+    <!--page 2.1 & 2.2 &2.3 sidebar-->
+<!--
+    <div class="container-fluid" id="SecondPage">
+        <div class="row">
+        <div class="col-sm-3 sidenav">
+          <h2>My Dinner</h2>
+              <div class="row">
+                <div class="col-sm-3">People</div>
+                <div class="col-sm-9">
+                    <input type="number" name="points" min="0" max="100" step="1" value="1">
+                </div>
+              </div>
+              <br>
+            <div>
+            <table style="width:100%">
+                <thead id="PriceTable">
+                    <tr>
+                      <td class="t0">Dish Name</td>
+                      <td class="t1"></td>
+                      <td class="t2">Cost</td>
+                </thead>
+                <tbody>
+                    <tr id="lastRow">
+                      <td class="t0">Pending</td>
+                      <td class="t1">0</td>
+                      <td class="t2">0.00</td>
+                    </tr>
+                    <tr>
+                      <td class="t0"></td>
+                      <td></td>
+                      <td id="totalPrice">0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <button id="confirmDiner">Confirm Dinner</button>
+        </div>
+-->
+
+
+<!--page 2.1 & 2.3  list view-->
+<!--
+        <div class="col-sm-9">
+              <div id="searchArea">
+                <h2>Select Dish</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <form action="action_page.php">
+                        <input type="text" name="keyword">
+                        <button>search</button></div>
+                    
+                    <div class="col-sm-8">
+                        <form>
+                            <select name="courseType">
+                                <option value="Starter">Starter</option>
+                                <option value="Soup">Soup</option>
+                                <option value="Secondplat">Second plat</option>
+                                <option value="Maindish">Main dish</option>
+                                <option value="Dessert">Dessert</option>
+                                </select>
+                        </form></div>
+                    
+                </div>
+                
+              </div>
+              <div class="showList">
+                <div class="floating-box">
+                    <div> <img id="iceCream" src="./images/icecream.jpg" alt="icecream"></div>
+                    <div class="textMiddle">icecream</div>
+                    <div style="padding: 5px;">icecreamdj kjldjslkj ;aj;ro slien ilmdhi en oskdjfi lke jslan ek ld;n ;aoeo na; ian bro najwh oalnwi nal hwf nlajsilj nal 'adjfl'a ; s</div>
+                </div>
+              </div>
+         </div>
+    </div>
+  
+    -->
+<!--page 2.2 detial view-->
+<!--
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>LASAGNE</h2>
+                    <img src="./images/icecream.jpg" alt="icecream">
+                    <p>djldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks</p>
+                    <br>
+                    <button>Back to Select Dish</button>
+                </div>
+
+                <div class="col-sm-6" id="Ingredient">
+                    <h3>INGREDIENTS FOR 4 PEOPLE</h3>
+                    <hr>
+                    <div id="ingredientTable"style="overflow: auto">
+                    <table style="width:95%; text-align: center">
+                        
+                        <tr>
+                          <td class="p0">2 tbsp</td>
+                          <td class="p1">olive oil</td>
+                          <td class="p2">SEK</td>
+                          <td class="p3">0.20</td>
+                        </tr>
+                        <tr>
+                          <td class="p0">2 tbsp</td>
+                          <td class="p1">lean beef mince</td>
+                          <td class="p2">SEK</td>
+                          <td class="p3">10.20</td>
+                        </tr>
+                        <tr>
+                          <td class="p0">2 tbsp</td>
+                          <td class="p1">pack rosclutto</td>
+                          <td class="p2">SEK</td>
+                          <td class="p3">0.20</td>
+                        </tr>
+                        <tr>
+                          <td class="p0">2 tbsp</td>
+                          <td class="p1">tomato sauce</td>
+                          <td class="p2">SEK</td>
+                          <td class="p3">10.20</td>
+                        </tr>
+                        <tr>
+                          <td class="p0">2 tbsp</td>
+                          <td class="p1">hot beef stock</td>
+                          <td class="p2">SEK</td>
+                          <td class="p3">0.20</td>
+                        </tr>
+                        <tr>
+                          <td class="p0">2 tbsp</td>
+                          <td class="p1">fresh pck lasagne sheets</td>
+                          <td class="p2">SEK</td>
+                          <td class="p3">10.20</td>
+                        </tr>
+                        <tr>
+                          <td class="p0">2 tbsp</td>
+                          <td class="p1">ball mozzarella</td>
+                          <td class="p2">SEK</td>
+                          <td class="p3">0.20</td>
+                        </tr>
+                        <tr>
+                          <td class="p0">2 tbsp</td>
+                          <td class="p1">white sauce</td>
+                          <td class="p2">SEK</td>
+                          <td class="p3">10.20</td>
+                        </tr>
+                        
+                    </table>
+                    </div>
+                    <hr>
+                    <div class="row" style="width:100%">
+                        <div class="col-sm-7">
+                            <button>Confirm Dish</button>
+                        </div>
+                        <div style="text-align: right;"class="col-sm-3">SEK
+                        </div>
+                        <div style="text-align: right;border:1px solid black;"class="col-sm-2">77.20
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <h1>PREPARATION</h1>
+                <p>djsllanl  jlajd jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. jdjldjlf jljelj ljbekl jla;lheoim n kaldn khsnekj bsikebjghabjg ,hgdn len lsneu nknalble kjndbkie nks ksjh tmecje j sem j mslem ks. </p>
+            </div>
+        </div>
+-->
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <h3>My Dinner: 4 people</h3>
+        </div>
+        <div class="col-md-8" style="text-align:right">
+            <button>Go back and edit menu</button>    
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <div class="floating-box">
+                    <div> 
+                        <img id="iceCream" src="./images/icecream.jpg" alt="icecream">
+                    </div>
+                    <div class="textMiddle">icecream
+                    </div>
+                    <div style="padding: 5px;">77.23 SEK
+                    </div>
+            </div>
+
+        </div>
+        <div class="col-md-3" style="vertical-align: bottom">
+            <p>Totle:</p>
+            <p>345.10 SEK</p>
+        </div>
+        <hr>
+        <div class="col-md-12" style="text-align:center"> 
+            <button>Print Full Recipe</button>
+        </div>
+    </div>
+
+
+-->
+
+
+
+
+
+
+
+    <!--- example
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="#section1">Dashboard</a></li>
+            <li><a href="#section2">Age</a></li>
+            <li><a href="#section3">Gender</a></li>
+            <li><a href="#section3">Geo</a></li>
+          </ul><br></div>
+
+
+        <div id="exampleView">
+            <div>
+                Number of guests: <span id="numberOfGuests"></span>
+            </div>
+            <div>
+          <button id="minusGuest" class="btn"><span class="glyphicon glyphicon-minus"></span></button>
+                <button id="plusGuest" class="btn"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+        </div>
+    </div>
+-->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+    <!-- The application JavaScript code -->
+    <script src="js/app.js"></script>
+    <script src="js/model/dinnerModel.js"></script>
+    <script src="js/view/exampleView.js"></script>
+    <script src="js/view/exampleViewController.js"></script>
+</body>
+
+</html>
